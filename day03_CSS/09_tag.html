@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        ul{
+            list-style: none;   /* 동그라미 표시 없앰*/
+        }
+        li {
+            float: left;
+        }
+        a:link {    /* 링크에 스타일 정의 한다는 의미*/ /*링크 방문 전*/
+            color: black;
+            background-color: gray;
+            text-decoration: none;  /* 밑줄 사라짐*/
+            padding: 10px 20px;
+            
+        }
+        a:visited {    /*링크에 방문한 이후*/
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:hover {   /* 마우스 가져다 댔을때 */
+            color: gray;
+            background-color: rgb(20, 20, 20);
+        }
+        li {
+            background-image: url(images/book-icon.png) ;   /* ul 동그라미를 이미지로 대체*/
+            background-repeat: no-repeat;
+            padding-left: 50px;
+            line-height: 40px;
+            background-position: left center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href = "#">메뉴1</a></li>
+            <li><a href = "#">메뉴2</a></li>
+            <li><a href = "#">메뉴3</a></li>
+            <li><a href = "#">메뉴4</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

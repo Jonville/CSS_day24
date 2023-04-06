@@ -1,0 +1,18 @@
+table, td, th {
+    border:1px solid #201e1e;
+    border-collapse: collapse;
+  }
+  td, th {
+    border: 1px dotted #201e1e;
+    padding:18px 18px;
+  }
+ 
+  th{
+
+    font-weight: bold;
+    color: red;
+  }
+
+  caption{
+    font-size: 1.2rem;
+  }

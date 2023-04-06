@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>바깥쪽 여백</title>
+
+    <style>
+        h1 {
+            display: inline-block;  /*한 줄에 다 표시함*/
+            border: 1px solid black;
+        }
+
+        .box1 {
+            margin: 50px;
+        }
+        .box2 {
+            margin: 100px 50px;     /* box1 한테도 영향을 준다*/
+                                    /* display : block 이면 box 끼리는 더큰값으로 덮어쓴다 */
+        }
+        .box3 {
+            margin: 10px 30px 50px 100px;  /*상 하 좌 우*/
+        }
+        .box4 {
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            margin-left: 50px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1 class="box1">HTML</h1>
+    <h1 class="box2">HTML</h1>
+    <h1 class="box3">HTML</h1>
+    <h1 class="box4">HTML</h1>
+    
+</body>
+</html>
